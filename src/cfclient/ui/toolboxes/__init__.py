@@ -32,6 +32,7 @@ Dropping a new .py file into this directory will automatically list and load
 it into the UI when it is started.
 """
 from .ConsoleToolbox import ConsoleToolbox
+from .DronetToolbox import DronetToolbox
 from .CrtpSharkToolbox import CrtpSharkToolbox
 
 __author__ = 'Bitcraze AB'
@@ -40,4 +41,5 @@ __all__ = []
 toolboxes = [
     ConsoleToolbox,
     CrtpSharkToolbox,
+    DronetToolbox,
 ]
